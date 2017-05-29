@@ -1,0 +1,26 @@
+{
+  "name": "landr-user-settings",
+  "version": "0.1.0",
+  "description": "micro service to expose and store user settings per application per version per user",
+  "main": "server.js",
+  "author": "Thomas Coville",
+  "license": "ISC",
+  "scripts": {
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "~4.15.3",
+    "path": "~0.12.7"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/debug": "0.0.29",
+    "@types/express": "~4.0.35",
+    "debug": "^2.6.8",
+    "gulp": "~3.9.1",
+    "gulp-sourcemaps": "~2.6.0",
+    "gulp-typescript": "~3.1.1",
+    "typescript": "~2.0.6"
+  }
+}
